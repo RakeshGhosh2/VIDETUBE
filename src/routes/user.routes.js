@@ -17,7 +17,7 @@ router.post(
     registeruser
 )
 
-router.route("/login").post(loginuser)
+router.route("/login").post( loginuser)
 router.route("/refresh-token").post(refreshaccesstoken)
 //sequre routes
 router.route("/logout").post(verifyjwt, logoutuser)
